@@ -3,6 +3,7 @@ body
 }
 
 nav {
+  /* nav bar style guide */
   background color: yellow;
   height: 100px;
   margin-top: -10px;
@@ -13,6 +14,7 @@ nav {
 section {
   margin: 0 auto;
   width: 60%;
+  padding-top: 100px
 }
 
 h1 {
@@ -20,17 +22,24 @@ h1 {
   font-size: 2em;
 }
 
+div {
+  background-color: blue;
+}
+
 .example, h3 {
   padding-top: 30px;
   text-align center
-}
-
-h3 {
   font-size: 1.3em;
 }
 
 .element {
+  /* element style guide */
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin 10px;
   width: 100%;
+}
+
+.background {
+  background-color: yellow;
+}
